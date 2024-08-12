@@ -1,1 +1,1 @@
-# study-planner
+Run the 'app.py' file
