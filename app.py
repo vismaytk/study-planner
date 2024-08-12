@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-GOOGLE_API_KEY = "AIzaSyCtm-TCD7P0xuHPN4NEiV3zmUC9GaOQPBU"
+GOOGLE_API_KEY = "YOUR_GEMINI_API_KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 @app.route('/')
